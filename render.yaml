@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: rivals-arena
+    runtime: node
+    plan: free
+    region: virginia
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: '24.22.1'
+      - key: HOST
+        value: '0.0.0.0'
+      - key: COOKIE_SECURE
+        value: 'true'
+      - key: DB_TLS
+        value: 'true'
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: '4000'
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        value: rivals_arena
