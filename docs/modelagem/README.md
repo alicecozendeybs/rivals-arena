@@ -1,10 +1,17 @@
 # Modelagem do banco de dados
 
-Os arquivos `.brM3` são os modelos editáveis do brModelo. As imagens abaixo permitem conferir os diagramas diretamente no GitHub. Clique em uma imagem para abrir o tamanho original.
+## Arquivos editáveis do brModelo (.brM3)
+
+| Modelo | Arquivo | Download |
+| --- | --- | --- |
+| Conceitual | [`conceitualRivalsArena.brM3`](conceitualRivalsArena.brM3) | [Baixar modelo conceitual](https://raw.githubusercontent.com/alicecozendeybs/rivals-arena/main/docs/modelagem/conceitualRivalsArena.brM3) |
+| Lógico | [`logicoRivalsArena.brM3`](logicoRivalsArena.brM3) | [Baixar modelo lógico](https://raw.githubusercontent.com/alicecozendeybs/rivals-arena/main/docs/modelagem/logicoRivalsArena.brM3) |
+
+Abra os arquivos `.brM3` no brModelo. Para consultar as imagens pelo GitHub, clique nelas para ver o tamanho original.
 
 ## Modelo conceitual
 
-O modelo identifica as entidades do Rivals Arena e como jogadores, times, comunidades, campeonatos e partidas se relacionam. [Abrir arquivo editável do modelo conceitual](conceitualRivalsArena.brM3)
+O modelo identifica as entidades do Rivals Arena e como jogadores, times, comunidades, campeonatos e partidas se relacionam.
 
 [![Modelo conceitual, parte superior](imagens/conceitual-parte-1.jpeg)](imagens/conceitual-parte-1.jpeg)
 
@@ -12,7 +19,7 @@ O modelo identifica as entidades do Rivals Arena e como jogadores, times, comuni
 
 ## Modelo lógico
 
-O modelo organiza entidades e relacionamentos em tabelas com atributos, chaves primárias e chaves estrangeiras. [Abrir arquivo editável do modelo lógico](logicoRivalsArena.brM3)
+O modelo organiza entidades e relacionamentos em tabelas com atributos, chaves primárias e chaves estrangeiras.
 
 [![Modelo lógico, parte superior](imagens/logico-parte-1.jpeg)](imagens/logico-parte-1.jpeg)
 
