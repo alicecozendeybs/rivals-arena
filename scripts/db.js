@@ -21,7 +21,7 @@ async function init(config) {
     await connection.query('USE ??', [database])
     const [[{ version }]] = await connection.query('SELECT VERSION() AS version')
     const isTiDB = /tidb/i.test(version)
-    const schema = readFileSync(resolve(__dirname, '../sql/schema.sql'), 'utf8')
+    const schema = readFileSync(resolve(__dirname, '../arquivos-adicionais/sql/02-criar-tabelas.sql'), 'utf8')
     for (const statement of schema.split(';').map(sql => sql.trim()).filter(Boolean)) {
       let ddl = statement
       if (isTiDB) {

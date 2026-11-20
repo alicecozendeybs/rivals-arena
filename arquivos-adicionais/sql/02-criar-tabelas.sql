@@ -1,3 +1,4 @@
+-- Execute após selecionar o banco de destino.
 CREATE TABLE IF NOT EXISTS `usuario` (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
